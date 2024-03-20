@@ -1,0 +1,45 @@
+.card{
+    .MuiAlert-root {
+      position: absolute;
+      top: 85px;
+      left: 30px; 
+    }
+    background-color: #f6f6f6;
+    padding: 20px;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    border-radius: 41px 0px 41px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    justify-content: center;
+    &--title{
+        font-family: math;
+        font-size: 15px;
+        color: #762626;
+        font-weight: 600;
+        width: 166px;
+   
+    }
+    &--price{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        color: #762626;
+        font-weight: 800;
+    }
+    &--button{
+        color: aliceblue;
+        padding: 10px;
+        border:none;
+        background: linear-gradient(90deg, rgba(206,204,226,1) 10%, rgba(183,183,255,1) 49%, rgba(79,225,255,1) 100%);
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+  
+}
+.card:hover{
+
+    box-shadow: none;
+}
